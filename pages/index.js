@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.js';
 import NavBar from './navbar';
 import Carousel from './carousel';
-import Footer from './footer';
+import Rodape from './footer';
 
 function Home(){
     return (
@@ -13,7 +14,7 @@ function Home(){
         </div>
         <Carousel />
         <main>
-            <div class="container-fluid bg-light py-4">
+            <div class="container-fluid py-4">
                 <div class="container">
                     <h1>Get started with Bootstrap</h1>
                     <p class="fs-5 col-md-8">Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started.</p>
@@ -50,7 +51,7 @@ function Home(){
                 </div>
             </div>
         </main>
-        <Footer />
+        <Rodape />
         </>
     )
 }

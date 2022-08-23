@@ -1,10 +1,10 @@
-export default function Footer(){
+export default function Rodape(){
     return (
-        <footer class="footer">
+        <footer class="footer py-5 bg-light">
             <div class="container">
-                <div class="footer__inner">
-                    <div class="footer__item">
-                        <form action="//getbootstrap.us13.list-manage.com/subscribe/post?u=e3428dd6b8fda73bc5ba8b6e6&amp;id=198881a019" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+                <div class="footerinner">
+                    <div class="footeritem">
+                        <form>
                             <div class="d-md-flex justify-content-between align-items-center">
                                 <div class="form-group">
                                     <h5 class="mb-1">Get new themes in your inbox!</h5>
@@ -12,9 +12,6 @@ export default function Footer(){
                                 </div>
                                 <div id="signup_footer" class="d-flex align-items-start">
                                     <div class="form-group w-100 mr-2">
-                                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                            <input type="text" name="b_e3428dd6b8fda73bc5ba8b6e6_198881a019" tabindex="-1" value="" />
-                                        </div>
                                         <input id="mce-EMAIL" class="footer__email-input form-control form-control--muted" name="EMAIL" type="email" aria-describedby="footerEmail" placeholder="Email address" />
                                     </div>
                                     <input class="btn btn-brand" type="submit" value="Subscribe" name="subscibe" id="mc-embedded-subscribe" />
