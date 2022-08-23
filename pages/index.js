@@ -3,6 +3,7 @@ import NavBar from './navbar';
 import Carousel from './carousel';
 import Rodape from './footer';
 
+
 function Home(){
     return (
         <>
@@ -54,5 +55,6 @@ function Home(){
         </>
     )
 }
+
 
 export default Home;
