@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.js';
 import NavBar from './navbar';
 import Carousel from './carousel';
 import Rodape from './footer';
